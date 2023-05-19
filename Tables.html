@@ -1,0 +1,1509 @@
+<html>
+
+    <head>
+
+        <title>Enavo Market Tables</title>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
+            <script src="https://cdn.datatables.net/1.11.1/js/dataTables.bootstrap4.min.js" type="text/javascript"></script>
+            <script src="https://kit.fontawesome.com/c11c6b1dd9.js" crossorigin="anonymous"></script>
+            <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+            <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
+ 
+
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="https://code.jquery.com/jquery-3.5.1.js">
+            <link rel="stylesheet" href="Home.css">
+
+            <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js">
+            <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+            <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+            <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css"/>
+ 
+
+
+    <body>
+        <div class="SideNavBar">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+              <div class="SideBarLogoName">
+                <img src="images/envato-market-.svg">
+                <!-- <span class="LogoColor"><i class="fa-solid fa-leaf"></i></span>enavo<span class="SideBarLogoNameGreen">market</span> -->
+                <strong>EM</strong> </div>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <div class="SideBarText">MENU</div>
+                    <a href="#DashboardSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="Sidebar-HeadingName">Dashboard</div>
+                    </a>
+                    <ul class="collapse list-unstyled" id="DashboardSubmenu">
+                        <li>
+                            <a href="#">Analytics</a>
+                        </li>
+                        <li>
+                            <a href="#">CRM</a>
+
+                        </li>
+                        <li>
+                            <a href="Tables.html">Ecommerce</a>
+
+
+                        </li>
+                        <li>
+                            <a href="#">Crypto</a>
+                        </li>
+                        <li>
+                            <a href="#">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#">NFT</a>
+                            <!-- <div class="SidedbarNewTag">New</div> -->
+                        </li>
+                </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-shapes"></i>
+                        <div class="Sidebar-HeadingName">Apps</div> 
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-table-cells-large"></i>
+                        <div class="Sidebar-HeadingName">Layouts</div> 
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div>
+                    </a> 
+                </li>
+                <div class="SideBarText">Pages</div>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-address-card"></i>
+                        <div class="Sidebar-HeadingName">Authentication</div> 
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div>
+                    </a> 
+                </li>
+
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fa-solid fa-pager"></i>
+                        <div class="Sidebar-HeadingName">Pages</div>
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Starter</a>
+                        </li>
+                        <li>
+                            <a href="#">profile</a>
+
+                        </li>
+                        <li>
+                            <a href="#">Team</a>
+                        </li>
+                        <li>
+                            <a href="#">TimeLine</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallary</a>
+                        </li>
+                        <li>
+                            <a href="#">Maintenance</a>
+                        </li>
+                        <li>
+                            <a href="#">Comming Soon</a>
+                        </li>
+                        <li>
+                            <a href="#">Sitemap</a>
+                        </li>
+                        <li>
+                            <a href="#">Search Results</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-rocket"></i>
+                        <div class="Sidebar-HeadingName">Landing</div> 
+                    </a>
+                </li>
+                <div class="SideBarText">COMPONENTS</div>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                        <div class="Sidebar-HeadingName">Base UI</div> 
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <div class="Sidebar-HeadingName">Advance UI</div>
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div> 
+                    </a>
+                </li>
+                 <li>
+                    <a href="#">
+                        <i class="fa-solid fa-monument"></i>
+                        <div class="Sidebar-HeadingName">Widgets</div> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-wpforms"></i>
+                        <div class="Sidebar-HeadingName">Forms</div>
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-table"></i>
+                        <div class="Sidebar-HeadingName">Tables</div>
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <div class="Sidebar-HeadingName">Charts</div>
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <div class="Sidebar-HeadingName">Icons</div>
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="Sidebar-HeadingName">Maps</div>
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-share-nodes"></i>
+                        <div class="Sidebar-HeadingName">Multi Level</div>
+                        <div class="SidebarAngle"><i class="fa-solid fa-angle-right"></i></div> 
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                 <input type="checkbox" id="CheckBoxChecked" class="checkboxClass">
+                 <label for="CheckBoxChecked" class="SideBarToggle" id="sidebarCollapse">
+                              <div class="spinner top"></div>
+                              <div class="spinner middle"></div>
+                              <div class="spinner bottom"></div>
+                 </label>
+                    <!-- <div class="SideBarToggle" id="sidebarCollapse">
+                              <div class="spinner top"></div>
+                              <div class="spinner middle"></div>
+                              <div class="spinner bottom"></div>
+                    </div>  -->
+                </input>
+                      <!-- Search Bar -->
+                    <div class="search-container">
+                        <form  action="/action_page.php">
+                              <input class="search-containerDesign" type="text" placeholder=" &#x1F50D;    Search.." name="search">
+                              <!-- <i class="fa fa-search"></i> -->
+                        </form>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <!-- Languages Modal Starts Here -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterLanguages">
+                                       <a class="nav-link" href="#">
+                                        <div class="LanguagesModalIconImage"><img class="LanguagesModalImageDimentions" src="Images/Flag.jpg"></div></a>
+                                    </button>
+
+                                            <!-- Modal Languages-->
+                                    <div class="modal fade" id="exampleModalCenterLanguages" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                      <div class="modal-dialog LanguagesModalPosition" role="document">
+                                        <div class="modal-content LanguagesContent">
+                                         <!--  <div class="modal-header ">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div> -->
+                                          <div class="modal-body">
+                                                <div class="LanguagesModalBody">
+                                                    <div class="LanguagesModalBodyDivImage"><img class="LanguagesModalImageDimentions" src="Images/Flag.jpg"></div>
+                                                    <div class="LanguagesModalBodyDivText">English</div>
+                                                </div>
+
+                                                <div class="LanguagesModalBody">
+                                                    <div class="LanguagesModalBodyDivImage"><img class="LanguagesModalImageDimentions" src="Images/Spain.png"></div>
+                                                    <div class="LanguagesModalBodyDivText">Espanola</div>
+                                                </div>
+
+                                                <div class="LanguagesModalBody">
+                                                    <div class="LanguagesModalBodyDivImage"><img class="LanguagesModalImageDimentions" src="Images/Germany.webp"></div>
+                                                    <div class="LanguagesModalBodyDivText">Deutsche</div>
+                                                </div>
+
+                                                <div class="LanguagesModalBody">
+                                                    <div class="LanguagesModalBodyDivImage"><img class="LanguagesModalImageDimentions" src="Images/Italy.webp"></div>
+                                                    <div class="LanguagesModalBodyDivText">Italiana</div>
+                                                </div>
+
+                                                <div class="LanguagesModalBody">
+                                                    <div class="LanguagesModalBodyDivImage"><img class="LanguagesModalImageDimentions" src="Images/pyccknn.png"></div>
+                                                    <div class="LanguagesModalBodyDivText">Pyccknn</div>
+                                                </div>
+
+                                                <div class="LanguagesModalBody">
+                                                    <div class="LanguagesModalBodyDivImage"><img class="LanguagesModalImageDimentions" src="Images/China.webp"></div>
+                                                    <div class="LanguagesModalBodyDivText">China</div>
+                                                </div>
+
+                                                <div class="LanguagesModalBody">
+                                                    <div class="LanguagesModalBodyDivImage"><img class="LanguagesModalImageDimentions" src="Images/France.webp"></div>
+                                                    <div class="LanguagesModalBodyDivText">Francais</div>
+                                                </div>
+                                          </div>
+                                       <!--  <div class="modal-footer">
+                                            <div><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div>
+                                         
+                                          </div> -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                <!-- Languages Modal Ends Here -->
+                                
+                            </li>
+                            <li class="nav-item">
+                               
+                               <!-- Web Apps Modal Starts Here -->
+                                <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterApp">
+                                       <a class="nav-link" href="#"><i class="fa-solid fa-shapes"></i></a>
+                                    </button>
+
+                                            <!-- Modal Web Apps-->
+                                    <div class="modal fade" id="exampleModalCenterApp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                      <div class="modal-dialog WebAppsModalPosition" role="document">
+                                        <div class="modal-content WebAppsContent">
+                                          <div class="modal-header ">
+                                            <div class="Imagedropdowns-Text">
+                                                <div class="ImagedropdownsFlexBox">
+                                                    <div class="ImagedropdownsFlexBoxHeading">Web Apps</div>
+                                                        <div class="ImagedropdownsFlexButton">View All Apps ></div>
+                                                    </div>
+                                                </div>
+                                         <!--    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="Imagedropdowns-Images">
+                                                                   
+                                                                   <div class="Imagedropdowns-ImagesFlexBox">
+                                                                    <div class="Imagedropdowns-ImagesFlexBoxDiv">
+                                                                          <div class="ImagesDropdown-Images">
+                                                                              <img class="MiniImageDimention" src="images/Github.png">
+                                                                          </div>
+                                                                          <div class="ImagesDropdown-Text">
+                                                                              Git Hub
+                                                                          </div>
+                                                                    </div>
+
+                                                                    <div class="Imagedropdowns-ImagesFlexBoxDiv">
+                                                                          <div class="ImagesDropdown-Images">
+                                                                              <img class="MiniImageDimention" src="images/Bitbucket.png">
+                                                                          </div>
+                                                                          <div class="ImagesDropdown-Text">
+                                                                              BitBucket
+                                                                          </div>
+                                                                    </div>
+
+                                                                    <div class="Imagedropdowns-ImagesFlexBoxDiv">
+                                                                          <div class="ImagesDropdown-Images">
+                                                                              <img class="MiniImageDimention" src="images/Dribble.png">
+                                                                          </div>
+                                                                          <div class="ImagesDropdown-Text">
+                                                                              Dribble
+                                                                          </div>
+                                                                    </div>
+
+                                                                    <div class="Imagedropdowns-ImagesFlexBoxDiv">
+                                                                          <div class="ImagesDropdown-Images">
+                                                                              <img class="MiniImageDimention" src="images/Dropbox.png">
+                                                                          </div>
+                                                                          <div class="ImagesDropdown-Text">
+                                                                              Dropbox
+                                                                          </div>
+                                                                    </div>
+                                                                    <div class="Imagedropdowns-ImagesFlexBoxDiv">
+                                                                          <div class="ImagesDropdown-Images">
+                                                                              <img class="MiniImageDimention" src="images/MailChip.png">
+                                                                          </div>
+                                                                          <div class="ImagesDropdown-Text">
+                                                                              Mail Chimp
+                                                                          </div>
+                                                                    </div>
+
+                                                                    <div class="Imagedropdowns-ImagesFlexBoxDiv">
+                                                                          <div class="ImagesDropdown-Images">
+                                                                              <img class="MiniImageDimention" src="images/slack.png">
+                                                                          </div>
+                                                                          <div class="ImagesDropdown-Text">
+                                                                              Slack
+                                                                          </div>
+                                                                    </div>
+
+                                                                   </div>
+                                                                </div>
+                                          </div>
+                                       <!--  <div class="modal-footer">
+                                            <div><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div>
+                                         
+                                          </div> -->
+                                        </div>
+                                      </div>
+                                    </div>
+                                <!-- WebApps Modal Ends Here -->
+                            </li>
+                            
+                            <li class="nav-item">
+                                    <!-- MyCart Modal Starts Here -->
+                                    <!-- Button trigger modal -->
+                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterMyCart">
+                                       <a class="nav-link" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                    </button>
+
+                                            <!-- Modal Web Apps-->
+                                    <div class="modal fade" id="exampleModalCenterMyCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                      <div class="modal-dialog MyCartModalPosition" role="document">
+                                        <div class="modal-content MyCartContent">
+                                          <div class="modal-header ">
+                                            <div class="cartdropdowns-Text">
+                                                <div class="cartdropdownsFlexBox">
+                                                    <div class="cartdropdownsFlexBoxHeading">My Cart</div>
+                                                        <div class="cartdropdownsFlexButton">5 items</div>
+                                                        </div>
+                                                    </div> 
+
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                          </div>
+                                          <div class="modal-body">
+                                              <div class="Section_2cartdropdowns">
+                                                                   
+                                                                   <div class="Section_2cartdropdownsFlexBox">
+                                                                        
+                                                                        <div class="Section_2cartdropdownsFlexBoxDiv">
+                                                                            <div class="Section_2cartdropdownsImage">
+                                                                                <img class="Section_2cartdropdownsImageDimentions" src="images/Shirt.png">
+                                                                            </div>
+                                                                            <div class="Section_2cartdropdownsText">
+                                                                                <div class="Section_2cartName">Branded T-Shirts</div>
+                                                                                <div class="Section_2cartQuantity">Quantity: 10 x $32</div>
+                                                                            </div>
+                                                                            <div class="Section_2cartPrice"> $320</div>
+                                                                            <div class="Section_2cartNo"> x</div>
+                                                                        </div>
+
+                                                                        <div class="Section_2cartdropdownsFlexBoxDiv">
+                                                                            <div class="Section_2cartdropdownsImage">
+                                                                                <img class="Section_2cartdropdownsImageDimentions" src="images/BentwoodChair.jpg">
+                                                                            </div>
+                                                                            <div class="Section_2cartdropdownsText">
+                                                                                <div class="Section_2cartName">Bentwood Chair</div>
+                                                                                <div class="Section_2cartQuantity">Quantity: 5 x $18</div>
+                                                                            </div>
+                                                                            <div class="Section_2cartPrice"> $89</div>
+                                                                            <div class="Section_2cartNo"> x</div>
+                                                                        </div>
+
+                                                                        <div class="Section_2cartdropdownsFlexBoxDiv">
+                                                                            <div class="Section_2cartdropdownsImage">
+                                                                                <img class="Section_2cartdropdownsImageDimentions" src="images/BorosilPaperCup.png">
+                                                                            </div>
+                                                                            <div class="Section_2cartdropdownsText">
+                                                                                <div class="Section_2cartName">Borosil Paper Cup</div>
+                                                                                <div class="Section_2cartQuantity">Quantity: 3 x $250</div>
+                                                                            </div>
+                                                                            <div class="Section_2cartPrice"> $750</div>
+                                                                            <div class="Section_2cartNo"> x</div>
+                                                                        </div>
+
+                                                                        <div class="Section_2cartdropdownsFlexBoxDiv">
+                                                                            <div class="Section_2cartdropdownsImage">
+                                                                                <img class="Section_2cartdropdownsImageDimentions" src="images/GrayTShirt.png">
+                                                                            </div>
+                                                                            <div class="Section_2cartdropdownsText">
+                                                                                <div class="Section_2cartName">Gray Styled T-Shirt</div>
+                                                                                <div class="Section_2cartQuantity">Quantity: 1 x $1250</div>
+                                                                            </div>
+                                                                            <div class="Section_2cartPrice"> $1250</div>
+                                                                            <div class="Section_2cartNo"> x</div>
+                                                                        </div>
+
+                                                                        <div class="Section_2cartdropdownsFlexBoxDiv">
+                                                                            <div class="Section_2cartdropdownsImage">
+                                                                                <img class="Section_2cartdropdownsImageDimentions" src="images/Halmet.png">
+                                                                            </div>
+                                                                            <div class="Section_2cartdropdownsText">
+                                                                                <div class="Section_2cartName">Stillbird Helmet</div>
+                                                                                <div class="Section_2cartQuantity">Quantity: 10 x $32</div>
+                                                                            </div>
+                                                                            <div class="Section_2cartPrice"> $990</div>
+                                                                            <div class="Section_2cartNo"> x</div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                          </div>
+                                        <div class="modal-footer">
+                                            <div><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <!-- MyCart Modal Ends Here -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-users-viewfinder"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" href="#"><i class="fa-regular fa-moon"></i></a>
+                                 
+                            </li>
+                            <li class="nav-item">
+                               
+                                <!-- Notification Modal Starts Here -->
+                                       
+                                          <!-- Button trigger modal -->
+                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterNotify">
+                                       <a class="nav-link" href="#"><i class="fa-regular fa-bell"></i></a>
+                                    </button>
+
+                                            <!-- Modal Web Apps-->
+                                    <div class="modal fade" id="exampleModalCenterNotify" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                      <div class="modal-dialog NotifyModalPosition" role="document">
+                                        <div class="modal-content NotifyContent">
+                                          <div class="NotifyHeaderHeight">
+                                            <div class="NotifyHeader">
+                                                <div class="NotifyHeaderFlexBox">
+                                                <div class="NotifyModalHeader">Notifications</div>
+                                                <div class="NotifyModal4New">4 New</div>
+                                            </div>
+                                          <!-- <div class="modal-header">
+                                            <div class="NotifyHeaderFlexBox">
+                                            <div class="NotifyModalHeader">Notifications</div>
+                                            <div class="NotifyModal4New">4 New</div>
+                                            <button type="button" class="close Upside" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                          </div>
+                                          </div> -->
+                                          <div class="modal-body NotifyBody">
+                                            <ul class="nav nav-tabs TabsPosition" id="myTab" role="tablist">
+                                                  <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active NotifyBorderRemove" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">All (4)</button>
+                                                  </li>
+                                                  <li class="nav-item" role="presentation">
+                                                    <button class="nav-link NotifyTabColor" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Messages</button>
+                                                  </li>
+                                                  <li class="nav-item" role="presentation">
+                                                    <button class="nav-link NotifyTabColor" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Alerts</button>
+                                                  </li>
+                                                </ul>
+                                                <div class="tab-content" id="myTabContent">
+                                                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                                      <div class="NotifyAllSection">
+                                                          
+                                                      </div>
+                                                  </div>
+                                                  <div class="tab-pane fade active" id="profile" role="tabpanel" aria-labelledby="profile-tab">HINA HERE</div>
+                                                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                                </div>
+
+                                              
+                                          </div>
+                                        <div class="modal-footer">
+                                            <div><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                  
+                                <!-- Notification Modal Ends Here -->
+
+                            </li>
+                            <li class="nav-item">
+                                <!-- Founder Modal Starts Here -->
+                                <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterFounder">
+                                        <div class="Section_NavBarFounder">
+                                            <div class="Section_NavBarFounderDiv1">
+                                                <img class="Section_NavBarFounderImage" src="images/img-10.jpg">
+                                            </div>
+                                        <div class="Section_NavBarFounderInnerFlexBox">
+                                            <div class="Section_NavBarFounderName">Anna Adame</div>
+                                                    <div class="Section_NavBarFounderFounder">Founder</div>
+                                            </div>
+                                        </div>
+                                    </button>
+
+                                            <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenterFounder" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                      <div class="modal-dialog FounderNameModal" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalCenterTitle">Welcome Anna!</h5>
+                                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button> -->
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-solid fa-user"></i></div>
+                                               <div class="Founder-ModalDivText">Profile</div>
+                                            </div>
+
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-regular fa-message"></i></div>
+                                               <div class="Founder-ModalDivText">Message</div>
+                                            </div>
+
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-solid fa-calendar-check"></i></div>
+                                               <div class="Founder-ModalDivText">Task Bar</div>
+                                            </div>
+
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-solid fa-circle-h"></i></div>
+                                               <div class="Founder-ModalDivText">Help</div>
+                                            </div>
+
+                                          </div>
+                                          
+                                           <div class="modal-body">
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-solid fa-vault"></i></div>
+                                               <div class="Founder-ModalDivText">Balance:<b> $5971.67</b></div>
+                                            </div>
+                                            
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-solid fa-gear"></i></div>
+                                               <div class="Founder-ModalDivText">Setting</b></div>
+                                            </div>
+
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-solid fa-unlock-keyhole"></i></div>
+                                               <div class="Founder-ModalDivText">Lock Screen</b></div>
+                                            </div>
+                                            
+                                            <div class="Founder-Modal">
+                                               <div class="Founder-ModalDivIcon"><i class="fa-solid fa-arrow-right-from-bracket"></i></div>
+                                               <div class="Founder-ModalDivText">Logout</b></div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div>
+                                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                <!-- Founder Modal Ends Here -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="navbar2">
+                
+                <div class="navbar2itemscontainer">
+                    <div class="NavBar2GallaryText">GALLERY</div>
+                    <div class="NavBar2PageText">Pages   >   Gallery</div>
+              </div>
+                
+            </div>
+            <!-- Section body Starts Here -->
+                        <div class="Section_body">
+                              <!-- <div class="Section_bodyListItems"> -->
+                                  <!-- <div class="List-items-Div"><a href="Home.html">All</a></div>
+                                  <div class="List-items-Div"><a href="Project.html">Project</a></div>
+                                  <div class="List-items-Div"><a href="Designing.html">Designing</a></div>
+                                  <div class="List-items-Div"><a href="Photography.html">Photography</a></div>
+                                  <div class="List-items-Div"><a href="Develpoment.html">Develpoment</a></div> -->
+                                  <ul class="nav nav-pills mb-3 BodySection" id="pills-tab" role="tablist">
+                                      <li class="nav-item ItemsSpacing">
+                                        <a class="nav-link active" id="pills-All-tab" data-toggle="pill" href="#pills-All" role="tab" aria-controls="pills-All" aria-selected="true">All</a>
+                                      </li>
+                                      <li class="nav-item ItemsSpacing">
+                                        <a class="nav-link" id="pills-Project-tab" data-toggle="pill" href="#pills-Project" role="tab" aria-controls="pills-Project" aria-selected="false">Project</a>
+                                      </li>
+                                      <li class="nav-item ItemsSpacing">
+                                        <a class="nav-link" id="pills-Designing-tab" data-toggle="pill" href="#pills-Designing" role="tab" aria-controls="pills-Designing" aria-selected="false">Designing</a>
+                                      </li>
+                                      <li class="nav-item ItemsSpacing">
+                                        <a class="nav-link" id="pills-Photography-tab" data-toggle="pill" href="#pills-Photography" role="tab" aria-controls="pills-Photography" aria-selected="false">Photography</a>
+                                      </li>
+                                      <li class="nav-item ItemsSpacing">
+                                        <a class="nav-link" id="pills-Development-tab" data-toggle="pill" href="#pills-Development" role="tab" aria-controls="pills-Development" aria-selected="false">Development</a>
+                                      </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                      <div class="tab-pane fade" id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab">
+                <!-- SectionAll_Images Display Starts Here -->
+                      <div class="Section_Images">
+                        <div class="Section_ImagesInner">
+                              <div class="Image_card">
+                                <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ron Mackie</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                              </div>
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-2.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Nancy Martino</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Elwood Arter</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.1K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-4.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Jason McQuaid</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 825</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 101</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                                <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-5.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Henry Baird</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 632</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 95</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-6.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Erica Kernan</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.4K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-7.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>James Ballard</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 735</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 150</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                                <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-8.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ruby Griffin</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 1.5K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 250</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-9.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ron Mackie</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-10.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Henry Baird</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 632</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 95</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                             <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-11.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Nancy Martino</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-12.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Erica Kernan</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.4K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                                </div>
+
+                        </div>
+                      </div>
+                <!-- SectionAll_Images Display Ends Here-->
+
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-Project" role="tabpanel" aria-labelledby="pills-Project-tab">
+                                          <!-- SectionAll_Images Display Starts Here -->
+                      <div class="Section_Images">
+                        <div class="Section_ImagesInner">
+                             
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-2.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Nancy Martino</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                                <div class="Image_card">
+                                <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-1.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ron Mackie</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                              </div>
+
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-6.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Erica Kernan</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.4K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-7.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>James Ballard</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 735</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 150</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-10.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Henry Baird</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 632</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 95</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                             <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-11.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Nancy Martino</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-12.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Erica Kernan</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.4K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                        </div>
+                      </div>
+                <!-- SectionAll_Images Display Ends Here-->
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-Designing" role="tabpanel" aria-labelledby="pills-Designing-tab">
+                                          <!-- Section_Images Display Starts Here -->
+                      <div class="Section_Images">
+                        <div class="Section_ImagesInner">
+                        
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-3.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Elwood Arter</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.1K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-4.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Jason McQuaid</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 825</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 101</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                                <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-5.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Henry Baird</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 632</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 95</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-7.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>James Ballard</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 735</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 150</div>
+                                    </div>
+                                </div>
+                               </div>
+
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-9.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ron Mackie</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+
+                        </div>
+                      </div>
+<!-- Section_Images Display Ends Here-->
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-Photography" role="tabpanel" aria-labelledby="pills-Photography-tab">
+                                          <!-- Section_Images Display Starts Here -->
+                      <div class="Section_Images">
+                        <div class="Section_ImagesInner">
+
+                                <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-8.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ruby Griffin</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 1.5K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 250</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-9.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ron Mackie</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-10.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Henry Baird</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 632</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 95</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                             <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-11.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Nancy Martino</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-12.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Erica Kernan</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.4K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                        </div>
+                      </div>
+<!-- Section_Images Display Ends Here-->
+                                      </div>
+                                      <div class="tab-pane fade" id="pills-Development" role="tabpanel" aria-labelledby="pills-Development-tab">
+                                          <!-- Section_Images Display Starts Here -->
+                      <div class="Section_Images">
+                        <div class="Section_ImagesInner">
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-6.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Erica Kernan</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.4K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-7.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>James Ballard</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 735</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 150</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                                <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-8.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ruby Griffin</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 1.5K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 250</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-9.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Ron Mackie</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 2.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-10.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Henry Baird</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 632</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 95</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                             <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-11.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Nancy Martino</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.2K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.1K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                               <div class="Image_card">
+                                   <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src="images/img-12.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="card-title"><span class="card-titleGray">by</span>Erica Kernan</div>
+                                        <div class="Like"><i class="fa-solid fa-thumbs-up"></i> 3.4K</div>
+                                        <div class="Like"><i class="fa-regular fa-comments"></i> 1.3K</div>
+                                    </div>
+                                </div>
+                               </div>
+
+                        </div>
+                      </div>
+<!-- Section_Images Display Ends Here-->
+                                      </div>
+                                    </div>
+
+                              
+                        </div>
+
+
+
+                        <!-- Tables Data Show -->
+                        <div class="TablesFlexBox">
+                            
+                            <div class="TablesFlexBoxTable1">
+                                <div class="Section_Table table table-hover">
+            <table id="example" class="display" width="100%"></table>
+        </div>
+<script>
+    var dataSet = [
+    ['<img class ="ArrayImageDimention" src="Images/Shirt.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Branded T-Shirts</div><div class="TableItemNameDivDate">24 Apr 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$29.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">62</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">510</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1,798</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">19 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$85.20</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">35</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$2982</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BorosilPaperCup.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">01 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$14.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">80</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">749</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1120</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">One Seater Sofa</div><div class="TableItemNameDivDate">11 Feb 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$127.50</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">56</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$7140</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/Halmet.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Stillbird Helmat</div><div class="TableItemNameDivDate">17 Jan 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$54</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">74</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">805</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$3996</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+     ['<img class ="ArrayImageDimention" src="Images/Shirt.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Branded T-Shirts</div><div class="TableItemNameDivDate">24 Apr 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$29.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">62</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">510</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1,798</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">19 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$85.20</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">35</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$2982</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BorosilPaperCup.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">01 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$14.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">80</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">749</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1120</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">One Seater Sofa</div><div class="TableItemNameDivDate">11 Feb 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$127.50</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">56</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$7140</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/Halmet.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Stillbird Helmat</div><div class="TableItemNameDivDate">17 Jan 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$54</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">74</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">805</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$3996</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/itextFactory.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">iTest Factory</div><div class="TableItemNameDivDate">Oliver Tyler</div></div>',
+     '<div class="TablePriceDivPrice">Bags and Wallets</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">8547</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$541200</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">32%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/DigiTech.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Digi Tech Galaxy</div><div class="TableItemNameDivDate">John Roberts</div></div>',
+     '<div class="TablePriceDivPrice">Watches</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">895</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$75030</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">79%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/NestaTech.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Nesta Technologies</div><div class="TableItemNameDivDate">Harley Fuller</div></div>',
+     '<div class="TablePriceDivPrice">Bike Accessories</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">3470</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$45600</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">90%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+
+    ['<img class ="ArrayImageDimention" src="Images/Zeotich.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Zeotic Fashion</div><div class="TableItemNameDivDate">James Bowen</div></div>',
+     '<div class="TablePriceDivPrice">Clothes</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">5488</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$29456</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">40%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/itextFactory.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Meta4Systems</div><div class="TableItemNameDivDate">Zeo Dennis</div></div>',
+     '<div class="TablePriceDivPrice">Furniture</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">4100</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$11260</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">57%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/Meta4System.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">iTest Factory</div><div class="TableItemNameDivDate">Oliver Tyler</div></div>',
+     '<div class="TablePriceDivPrice">Bags and Wallets</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">8547</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$541200</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">32%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/DigiTech.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Digi Tech Galaxy</div><div class="TableItemNameDivDate">John Roberts</div></div>',
+     '<div class="TablePriceDivPrice">Watches</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">895</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$75030</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">79%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/NestaTech.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Nesta Technologies</div><div class="TableItemNameDivDate">Harley Fuller</div></div>',
+     '<div class="TablePriceDivPrice">Bike Accessories</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">3470</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$45600</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">90%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+
+    ['<img class ="ArrayImageDimention" src="Images/Zeotich.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Zeotic Fashion</div><div class="TableItemNameDivDate">James Bowen</div></div>',
+     '<div class="TablePriceDivPrice">Clothes</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">5488</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$29456</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">40%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/Meta4System.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Meta4Systems</div><div class="TableItemNameDivDate">Zeo Dennis</div></div>',
+     '<div class="TablePriceDivPrice">Furniture</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">4100</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$11260</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">57%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+    ['Jenette Caldwell', 'Development Lead', 'New York', '1937', '2011/09/03', '$345,000'],
+    ['Yuri Berry', 'Chief Marketing Officer (CMO)', 'New York', '6154', '2009/06/25', '$675,000'],
+    ['Caesar Vance', 'Pre-Sales Support', 'New York', '8330', '2011/12/12', '$106,450'],
+    ['Doris Wilder', 'Sales Assistant', 'Sydney', '3023', '2010/09/20', '$85,600'],
+    ['Angelica Ramos', 'Chief Executive Officer (CEO)', 'London', '5797', '2009/10/09', '$1,200,000'],
+    ['Gavin Joyce', 'Developer', 'Edinburgh', '8822', '2010/12/22', '$92,575'],
+    ['Jennifer Chang', 'Regional Director', 'Singapore', '9239', '2010/11/14', '$357,650'],
+    ['Brenden Wagner', 'Software Engineer', 'San Francisco', '1314', '2011/06/07', '$206,850'],
+    ['Fiona Green', 'Chief Operating Officer (COO)', 'San Francisco', '2947', '2010/03/11', '$850,000'],
+    ['Shou Itou', 'Regional Marketing', 'Tokyo', '8899', '2011/08/14', '$163,000'],
+    ['Michelle House', 'Integration Specialist', 'Sydney', '2769', '2011/06/02', '$95,400'],
+    ['Suki Burks', 'Developer', 'London', '6832', '2009/10/22', '$114,500'],
+    ['Prescott Bartlett', 'Technical Author', 'London', '3606', '2011/05/07', '$145,000'],
+    ['Gavin Cortez', 'Team Leader', 'San Francisco', '2860', '2008/10/26', '$235,500'],
+    ['Martena Mccray', 'Post-Sales support', 'Edinburgh', '8240', '2011/03/09', '$324,050'],
+    ['Unity Butler', 'Marketing Designer', 'San Francisco', '5384', '2009/12/09', '$85,675'],
+];
+
+
+$(document).ready(function () {
+    $('#example').DataTable({
+        scrollX: true,
+        'colsGroup': [5],
+        data: dataSet,
+        columns: [
+
+            { title: '' },
+            { title: 'Position' },
+            { title: 'Office' },
+            { title: 'Extn.' },
+            { title: 'Start date' },
+            { title: 'Salary' },
+        ],
+    });
+});
+
+
+</script>
+
+                            </div>
+                            <div class="TablesFlexBoxTable1">
+                                <!-- Tables Data Show -->
+                        <div class="TablesFlexBox">
+                            
+                            <div class="TablesFlexBoxTable1">
+                                <div class="Section_Table table table-hover">
+                                    <table id="example2" class="display" width="100%"></table>
+                                </div>
+<script>
+    var dataSet = [
+    
+    ['<img class ="ArrayImageDimention" src="Images/itextFactory.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">iTest Factory</div><div class="TableItemNameDivDate">Oliver Tyler</div></div>',
+     '<div class="TablePriceDivPrice">Bags and Wallets</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">8547</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$541200</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">32%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/DigiTech.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Digi Tech Galaxy</div><div class="TableItemNameDivDate">John Roberts</div></div>',
+     '<div class="TablePriceDivPrice">Watches</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">895</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$75030</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">79%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/NestaTech.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Nesta Technologies</div><div class="TableItemNameDivDate">Harley Fuller</div></div>',
+     '<div class="TablePriceDivPrice">Bike Accessories</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">3470</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$45600</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">90%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+
+    ['<img class ="ArrayImageDimention" src="Images/Zeotich.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Zeotic Fashion</div><div class="TableItemNameDivDate">James Bowen</div></div>',
+     '<div class="TablePriceDivPrice">Clothes</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">5488</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$29456</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">40%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/itextFactory.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Meta4Systems</div><div class="TableItemNameDivDate">Zeo Dennis</div></div>',
+     '<div class="TablePriceDivPrice">Furniture</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">4100</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$11260</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">57%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/Meta4System.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">iTest Factory</div><div class="TableItemNameDivDate">Oliver Tyler</div></div>',
+     '<div class="TablePriceDivPrice">Bags and Wallets</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">8547</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$541200</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">32%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/DigiTech.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Digi Tech Galaxy</div><div class="TableItemNameDivDate">John Roberts</div></div>',
+     '<div class="TablePriceDivPrice">Watches</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">895</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$75030</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">79%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/NestaTech.webp">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Nesta Technologies</div><div class="TableItemNameDivDate">Harley Fuller</div></div>',
+     '<div class="TablePriceDivPrice">Bike Accessories</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">3470</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$45600</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">90%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+
+    ['<img class ="ArrayImageDimention" src="Images/Zeotich.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Zeotic Fashion</div><div class="TableItemNameDivDate">James Bowen</div></div>',
+     '<div class="TablePriceDivPrice">Clothes</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">5488</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$29456</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">40%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+    ['<img class ="ArrayImageDimention" src="Images/Meta4System.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Meta4Systems</div><div class="TableItemNameDivDate">Zeo Dennis</div></div>',
+     '<div class="TablePriceDivPrice">Furniture</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">4100</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$11260</div><div class="TableAmountDivAmount">Amount</div></div>',
+     '<div class="PercentSign"><div class="PercentSignDiv1">57%</div><div class="PercentSignDiv2"><i class="fa-solid fa-chart-simple"></i></div></div>',],
+
+     ['<img class ="ArrayImageDimention" src="Images/Shirt.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Branded T-Shirts</div><div class="TableItemNameDivDate">24 Apr 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$29.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">62</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">510</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1,798</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">19 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$85.20</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">35</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$2982</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BorosilPaperCup.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">01 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$14.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">80</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">749</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1120</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">One Seater Sofa</div><div class="TableItemNameDivDate">11 Feb 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$127.50</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">56</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$7140</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/Halmet.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Stillbird Helmat</div><div class="TableItemNameDivDate">17 Jan 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$54</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">74</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">805</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$3996</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+     ['<img class ="ArrayImageDimention" src="Images/Shirt.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Branded T-Shirts</div><div class="TableItemNameDivDate">24 Apr 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$29.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">62</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">510</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1,798</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">19 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$85.20</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">35</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$2982</div><div class="TableAmountDivAmount">Amount</div></div>'],
+    
+    ['<img class ="ArrayImageDimention" src="Images/BorosilPaperCup.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Bentwood Chair</div><div class="TableItemNameDivDate">01 Mar 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$14.00</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">80</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">749</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$1120</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/BentwoodChair.jpg">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">One Seater Sofa</div><div class="TableItemNameDivDate">11 Feb 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$127.50</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">56</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="OutofStock">Out of Stock</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$7140</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['<img class ="ArrayImageDimention" src="Images/Halmet.png">', 
+     '<div class="TableItemName"><div class="TableItemNameDivItem">Stillbird Helmat</div><div class="TableItemNameDivDate">17 Jan 2021</div></div>',
+     '<div class="TablePrice"><div class="TablePriceDivDoller">$54</div><div class="TablePriceDivPrice">Price</div></div>',
+     '<div class="TableOrders"><div class="TableOrderDivNumber">74</div><div class="TableOrderDivOrder">Orders</div></div>',
+     '<div class="TableStock"><div class="TableStockDivNumber">805</div><div class="TableStockDivStock">Stock</div></div>',
+     '<div class="TableAmount"><div class="TableAmountDivPrice">$3996</div><div class="TableAmountDivAmount">Amount</div></div>'],
+
+    ['Jenette Caldwell', 'Development Lead', 'New York', '1937', '2011/09/03', '$345,000'],
+    ['Yuri Berry', 'Chief Marketing Officer (CMO)', 'New York', '6154', '2009/06/25', '$675,000'],
+    ['Caesar Vance', 'Pre-Sales Support', 'New York', '8330', '2011/12/12', '$106,450'],
+    ['Doris Wilder', 'Sales Assistant', 'Sydney', '3023', '2010/09/20', '$85,600'],
+    ['Angelica Ramos', 'Chief Executive Officer (CEO)', 'London', '5797', '2009/10/09', '$1,200,000'],
+    ['Gavin Joyce', 'Developer', 'Edinburgh', '8822', '2010/12/22', '$92,575'],
+    ['Jennifer Chang', 'Regional Director', 'Singapore', '9239', '2010/11/14', '$357,650'],
+    ['Brenden Wagner', 'Software Engineer', 'San Francisco', '1314', '2011/06/07', '$206,850'],
+    ['Fiona Green', 'Chief Operating Officer (COO)', 'San Francisco', '2947', '2010/03/11', '$850,000'],
+    ['Shou Itou', 'Regional Marketing', 'Tokyo', '8899', '2011/08/14', '$163,000'],
+    ['Michelle House', 'Integration Specialist', 'Sydney', '2769', '2011/06/02', '$95,400'],
+    ['Suki Burks', 'Developer', 'London', '6832', '2009/10/22', '$114,500'],
+    ['Prescott Bartlett', 'Technical Author', 'London', '3606', '2011/05/07', '$145,000'],
+    ['Gavin Cortez', 'Team Leader', 'San Francisco', '2860', '2008/10/26', '$235,500'],
+    ['Martena Mccray', 'Post-Sales support', 'Edinburgh', '8240', '2011/03/09', '$324,050'],
+    ['Unity Butler', 'Marketing Designer', 'San Francisco', '5384', '2009/12/09', '$85,675'],
+];
+ 
+$(document).ready(function () {
+    $('#example2').DataTable({
+        data: dataSet,
+        columns: [
+
+            { title: '' },
+            { title: 'Position' },
+            { title: 'Office' },
+            { title: 'Extn.' },
+            { title: 'Start date' },
+            { title: 'Salary' },
+        ],
+    });
+});
+</script>
+                            </div>
+                        </div>
+                        <!-- Table Data Ends Here -->
+        
+    </body>
+
+</html>
